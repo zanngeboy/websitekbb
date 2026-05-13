@@ -26,6 +26,7 @@ Bot.onText(/\/start/,
 (msg)=>{
 
   chatId = msg.chat.id;
+  "/set
 
   bot.sendMessage(
     chatId,
